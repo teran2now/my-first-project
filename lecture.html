@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width",initial-scale="1">
+	<title>놀교웹</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/ngweb.css">
+
+</head>
+<body>
+
+	<nav class= "navbar navbar-default">
+	<div class= "container-fluid">
+	<div class= "navbar-header">
+	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded ="false">
+		<span class="sr-only"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand" href="index.html">놀교웹</a>
+	</div>
+	<div class="colapse navbar-collpase" id="bs-example-navbar-collapse-1">
+		<ul class ="nav navbar-nav">
+			<li class="active"><a href="index.html">놀이센터 대여현황<span class="sr-only"></span></a></li>
+<li><a href="instructor.html">노래방 및 게임센터 예약현황</a></li>
+<li class="dropdown">
+	<a href="#" class="dropdown-toggle" data-toggle ="dropdown" role="buton" aria-haspopup="true" aria-expanded="false">강의<span class="caret"></span></a>
+	<ul class="dropdown-menu">
+	<li><a href="lecture.html?lectureName=C">1</a></li>
+	<li><a href="lecture.html?lectureName=Java">2</a></li>
+	<li><a href="lecture.html?lectureName=Android">3</a></li>
+	</ul>
+</li>
+		</ul>
+		<form class="navbar-form navbar-left">
+			<div class ="form-group">
+				<input type="text" class="form-control" placeholder="내용을 입력하세요.">
+			</div>
+			<button type="submit" class=btn btn-default">검색</button>
+		</form>
+		<ul class="navbar-nav navbar-right">
+			<li class=" dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle ="dropdown" role="button" aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+	<li><a href="loginform.html"></a>로그인</li>
+	<li><a href="registerform.html"></a>회원가입</li>
+	</ul>
+			</li>
+
+		</ul>
+	</div>
+</div>
+</nav>
+<div class="container">
+	<div class ="row">
+		<ul class="list-group">
+			<a href="#" class="list-group-item active">1강 hello world</a>
+			<a href="#" class="list-group-item ">2강 hello world</a>
+			<a href="#" class="list-group-item ">3강 hello world</a>
+			<a href="#" class="list-group-item ">4강 hello world</a>
+			<a href="#" class="list-group-item ">5강 hello world</a>
+</ul>
+</div>
+<div class ="row">
+	<div class="embed-responsive embed-responsive-16by9">
+		<iframe class ="embed-responsive-item" src="https://www.youtube.com/embed/q4tfF3UGaQg&index=12&list=PLRx0vPvlEmdAZ-wT8pwVJn5GBp5a5aVGy"></iframe>
+	</div>
+</div>
+<hr>
+<div class="row">
+	<p>
+		첫 번째 강의는 시발이다
+	</p>
+	<pre class ="pre-scrollable">
+		#include&lt;stdio.h&gt;
+		int main()
+		{
+			printf("hello"); 
+		}
+</pre>
+</div>
+</div>
+<div class ="container">
+	<hr>
+	<form class ="form-horizontal">
+		<div class ="form-group">
+			<label>댓글: </label>
+			<textarea class ="form-control" rows="5" id="commentContent" name="commentContent">
+			</textarea>
+			<br>
+			<button type="submit" class="btn pull-right">등록</button>
+		</div>
+	</form>
+	<hr>
+	<footer style="background-color: #000000; color:#ffffff">
+		<div class ="container">
+			<br>
+			<div class="row">
+				<div class ="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2018</h5><h5><개발자 : 이재민,임상민></h5></div>
+<div class ="col-sm-4"><h4>개발자 소개</h4><p>인천대학교 정보통신공학과</p></div>
+			<div class="col-sm-2"><h4 style = "text-align: center">내비게이션</h4>
+				<div class ="list-group">
+					<a href ="index.html" class ="list-group-item">소개</a>
+						<a href ="instructor.html" class ="list-group-item">이재민</a>
+						<a href ="leture.html" class ="list-group-item">임상민</a>
+</div>
+				</div>
+				<div class="col-sm-2"><h4 style = "text-align: center;">SNS</h4>
+					<div class ="list-group">
+					<a href ="https://www.facebook.com/jaemin.lee.5855594?ref=bookmarks" class ="list-group-item">페이스북</a>
+						<a href ="#" class ="list-group-item">인스타그램</a>
+						<a href ="#" class ="list-group-item">네이버</a>
+					</div>
+				</div>
+					<div class="col-sm-2"><h4 style = "text-align: center;"><span class="glyphicon glyphicon-ok"></span>&nbsp;by 이재민,임상민</h4>
+					</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
