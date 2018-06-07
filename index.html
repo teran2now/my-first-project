@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width",initial-scale="1">
+	<title>놀교웹</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/ngweb.css">
+
+</head>
+<body>
+	<style type="text/css">
+		.jumbotron {
+			text-shadow: black 0.2em 0.2em 0.2em;
+			color: white;
+		background-image: url('images/JumbotronBackground.jpg');
+		background-size: cover;
+		
+		}
+
+	</style>
+	<nav class= "navbar navbar-default">
+	<div class= "container-fluid">
+	<div class= "navbar-header">
+	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded ="false">
+		<span class="sr-only"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand" href="index.html">놀교웹</a>
+	</div>
+	<div class="colapse navbar-collpase" id="bs-example-navbar-collapse-1">
+		<ul class ="nav navbar-nav">
+			<li class="active"><a href="index.html">놀이센터 대여현황<span class="sr-only"></span></a></li>
+<li><a href="instructor.html">노래방 및 게임센터 예약현황</a></li>
+<li class="dropdown">
+	<a href="#" class="dropdown-toggle" data-toggle ="dropdown" role="buton" aria-haspopup="true" aria-expanded="false">강의<span class="caret"></span></a>
+	<ul class="dropdown-menu">
+	<li><a href="lecture.html?lectureName=C">1</a></li>
+	<li><a href="lecture.html?lectureName=Java">2</a></li>
+	<li><a href="lecture.html?lectureName=Android">3</a></li>
+	</ul>
+</li>
+		</ul>
+		<form class="navbar-form navbar-left">
+			<div class ="form-group">
+				<input type="text" class="form-control" placeholder="내용을 입력하세요.">
+			</div>
+			<button type="submit" class=btn btn-default">검색</button>
+		</form>
+		<ul class="navbar-nav navbar-right">
+			<li class=" dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle ="dropdown" role="button" aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+	<li><a href="loginform.html">로그인</a></li>
+	<li><a href="registerform.html">회원가입</a></li>
+	</ul>
+			</li>
+
+		</ul>
+	</div>
+</div>
+</nav>
+
+<div class="container">
+<div class="jumbotron">
+	<h1 class="text-center"> 놀교웹을 소개합니다</h1>
+	<p class= "text-center"> 놀교웹은 인천대학교 학생들을 위한 놀이센터 온라인 예약 및 현황을 확인할 수 있는 웹 사이트 입니다.</p>
+	<p class= "text-center"><a class ="btn btn-primary btn-lg" href="lecture.html?lectureName=C" role="buton">현황 확인</a></p></div>
+<div class="row">
+		<div class="col-md-4">
+		<h4>놀교웹 설명</h4>
+<p>놀교웹은 인천대생의 공강시간을 응원합니다.</p>
+<p><a class="btn btn-default" data target="#modal" data toggle ="modal">자세히 알아보기</a></p>
+</div>
+			<div class="col-md-4">
+		<h4>놀이센터 사용 현황</h4>
+<p>놀이센터</p>
+<p><a class="btn btn-default" href="lecture.html?lectureName=Java">놀이센터</a></p>
+</div>
+<div class="col-md-4">
+		<h4>교내 물품 대여 현황</h4>
+<p>물품대여</p>
+<p><a class="btn btn-default" href="lecture.html?lectureName=Android">대여현황</a></p>	
+</div>
+	</div>
+	<hr>
+<div class = "panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"><span class="glyphicon glyphicon-pencil"></span>
+&nbsp; &nbsp;최신강의목록</h3>
+</div>
+<div class="panel-body">
+<div class="media">
+	<div class="media-left">
+		<a href ="lecture.html"><img class ="media-object" src="images/youtube.png" alt = "유투브 이미지"></a>
+	</div>
+	<div class = "media-body">
+	<h4 class="media-heading"><a href="#">c언어 기초 프로그래밍 강의</a>&nbsp;<span class="badge">new</span></h4>
+		이건 유투브야 시발놈들아
+	</div>
+	<hr>
+		<div class="media">
+	<div class="media-left">
+		<a href ="#"><img class ="media-object" src="images/youtube.png" alt = "유투브 이미지"></a>
+	</div>
+	<div class = "media-body">
+	<h4 class="media-heading"><a href="#">c언어 기초 프로그래밍 강의</a>&nbsp;<span class="badge">new</span></h4>
+		이건 유투브야 시발놈들아
+	</div>
+		<hr>
+		<div class="media">
+	<div class="media-left">
+		<a href ="#"><img class ="media-object" src="images/youtube.png" alt = "유투브 이미지"></a>
+	</div>
+	<div class = "media-body">
+	<h4 class="media-heading"><a href="#">c언어 기초 프로그래밍 강의</a>&nbsp;<span class="badge">new</span></h4>
+		이건 유투브야 시발놈들아
+</div>
+
+</div>
+</div>
+</div>
+	<footer style="background-color: #000000; color:#ffffff">
+		<div class ="container">
+			<br>
+			<div class="row">
+				<div class ="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2018</h5><h5><개발자 : 이재민,임상민></h5></div>
+<div class ="col-sm-4"><h4>개발자 소개</h4><p>인천대학교 정보통신공학과</p></div>
+			<div class="col-sm-2"><h4 style = "text-align: center">내비게이션</h4>
+				<div class ="list-group">
+					<a href ="index.html" class ="list-group-item">소개</a>
+						<a href ="instructor.html" class ="list-group-item">이재민</a>
+						<a href ="leture.html" class ="list-group-item">임상민</a>
+</div>
+				</div>
+				<div class="col-sm-2"><h4 style = "text-align: center;">SNS</h4>
+					<div class ="list-group">
+					<a href ="https://www.facebook.com/jaemin.lee.5855594?ref=bookmarks" class ="list-group-item">페이스북</a>
+						<a href ="#" class ="list-group-item">인스타그램</a>
+						<a href ="#" class ="list-group-item">네이버</a>
+					</div>
+				</div>
+					<div class="col-sm-2"><h4 style = "text-align: center;"><span class="glyphicon glyphicon-ok"></span>&nbsp;by 이재민,임상민</h4>
+					</div>
+			</div>
+		</div>
+	</footer>
+	<div class="row">
+<div class ="modal" id="modal" tabindex="-1">
+	<div class ="modal-dialog">
+			<div class ="modal-content">
+					<div class ="modal-header">
+						놀교웹의 특징
+						<button class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body" style="text-align: center;">
+						저희 웹의 특징은 ~~~<br>
+						특히 ~~<br><br>
+						<img src="youtube.png" id="imagepreview" style ="width:256px; height: 256px;">
+				</div>
+			</div>
+				</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
